@@ -48,4 +48,9 @@ POST	/api/auth/logout	Ends the current user's session.	Any	None	200 OK – sessi
 User Profile
 HTTP Method	Route	Description	Role Required	Request Body	Expected Response
 GET	/api/profile	Returns the logged-in user's own profile details.	Any	None	200 OK – profile object / 401 Unauthorized – not logged in
+
+User Profile
+HTTP Method	Route	Description	Role Required	Request Body	Expected Response
+GET	/api/profile	Returns the logged-in user's own profile details.	Any	None	200 OK – profile object / 401 Unauthorized – not logged in
+PUT	/api/profile	Updates the logged-in user's own profile details.	Any	{ fullName, phoneNumber }	200 OK – updated profile / 400 Bad Request – validation failed / 401 Unauthorized
 PUT	/api/profile	Updates the logged-in user's own profile details.presentation.
