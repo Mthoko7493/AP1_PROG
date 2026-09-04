@@ -38,4 +38,14 @@ Video Presentation
 Roles referenced below: None (public, no login required), Any (any authenticated user, either role), Organiser, Participant.
 The video walks through the planning documents, explains the ERD design decisions and endpoint plan choices, and runs the SQL script live in SSMS.
 AI Tool Disclosure
-AI assistance (Claude, Anthropic) was used during the planning phase to help draft and structure the ERD, API endpoint plan, and SQL script. All content was reviewed, and will be explained in my own words in the video presentation.
+AI assistance (Claude, Anthropic) was used during the planning phase to help draft and structure the ERD, API endpoint plan, and SQL script. All content was reviewed, and will be explained in my own words in the video 
+
+Authentication
+HTTP Method	Route	Description	Role Required	Request Body	Expected Response
+POST	/api/auth/register	Creates a new user account as either an Organiser or a Participant and hashes the supplied password.	None	{ fullName, email, password, role, phoneNumber }	201 Created – user record (no password returned) / 400 Bad Request – validation failed / 409 Conflict – email already registered
+POST	/api/auth/login	Validates credentials, creates a session, and returns the user's role.	None	{ email, password }	200 OK – session established, user id and role returned / 401 Unauthorized – invalid credentials
+POST	/api/auth/logout	Ends the current user's session.	Any	None	200 OK – session cleared / 401 Unauthorized – no active session
+User Profile
+HTTP Method	Route	Description	Role Required	Request Body	Expected Response
+GET	/api/profile	Returns the logged-in user's own profile details.	Any	None	200 OK – profile object / 401 Unauthorized – not logged in
+PUT	/api/profile	Updates the logged-in user's own profile details.presentation.
