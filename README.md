@@ -24,3 +24,8 @@ Verify the tables under RaceDayDB > Tables and spot-check the seed data with a S
 Entity Relationship Diagram
 
 The ERD (docs/RaceDay_ERD.png / .pdf) models six entities — Roles, Users, Events, Categories, Enrolments, and Results — with all primary keys, foreign keys, and cardinality shown. It matches the SQL script exactly.
+CI/CD
+
+[Insert screenshot of your successful green GitHub Actions build here before submission.]
+
+The GitHub Actions workflow (.github/workflows/) validates that the /docs folder exists and contains the required planning files.
