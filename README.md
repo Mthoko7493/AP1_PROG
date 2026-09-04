@@ -15,3 +15,4 @@ Participant	Can create an account, browse events, enter an event by selecting a 
 README.md                             — this file
 Database Script — Setup Instructions
 Open SQL Server Management Studio (SSMS) and connect to a local or clean SQL Server instance
+Open docs/RaceDay_Database.sql.
