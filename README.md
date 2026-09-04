@@ -13,3 +13,5 @@ Participant	Can create an account, browse events, enter an event by selecting a 
   API_Endpoint_Plan.md                — Full API endpoint plan (Markdown)
   RaceDay_Database.sql                — SQL Server database creation + seed script
 README.md                             — this file
+Database Script — Setup Instructions
+Open SQL Server Management Studio (SSMS) and connect to a local or clean SQL Server instance
