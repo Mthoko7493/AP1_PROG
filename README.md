@@ -16,3 +16,7 @@ README.md                             — this file
 Database Script — Setup Instructions
 Open SQL Server Management Studio (SSMS) and connect to a local or clean SQL Server instance
 Open docs/RaceDay_Database.sql.
+Execute the script (F5). It will:
+Create the RaceDayDB database if it does not already exist.
+Drop and recreate all tables (safe to re-run).
+Seed the database with 2 Organisers, 2 Participants, 3 Events, 6 Categories, 3 Enrolments, and 2 Results.
