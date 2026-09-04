@@ -21,3 +21,6 @@ Create the RaceDayDB database if it does not already exist.
 Drop and recreate all tables (safe to re-run).
 Seed the database with 2 Organisers, 2 Participants, 3 Events, 6 Categories, 3 Enrolments, and 2 Results.
 Verify the tables under RaceDayDB > Tables and spot-check the seed data with a SELECT * FROM dbo.Events;.
+Entity Relationship Diagram
+
+The ERD (docs/RaceDay_ERD.png / .pdf) models six entities — Roles, Users, Events, Categories, Enrolments, and Results — with all primary keys, foreign keys, and cardinality shown. It matches the SQL script exactly.
