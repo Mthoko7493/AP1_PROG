@@ -20,3 +20,4 @@ Execute the script (F5). It will:
 Create the RaceDayDB database if it does not already exist.
 Drop and recreate all tables (safe to re-run).
 Seed the database with 2 Organisers, 2 Participants, 3 Events, 6 Categories, 3 Enrolments, and 2 Results.
+Verify the tables under RaceDayDB > Tables and spot-check the seed data with a SELECT * FROM dbo.Events;.
