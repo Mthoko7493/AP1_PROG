@@ -29,3 +29,8 @@ CI/CD
 [Insert screenshot of your successful green GitHub Actions build here before submission.]
 
 The GitHub Actions workflow (.github/workflows/) validates that the /docs folder exists and contains the required planning files.
+Video Presentation
+
+[Insert unlisted YouTube link here.]
+
+The video walks through the planning documents, explains the ERD design decisions and endpoint plan choices, and runs the SQL script live in SSMS.
