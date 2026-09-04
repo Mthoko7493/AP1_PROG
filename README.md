@@ -34,6 +34,8 @@ CI/CD
 The GitHub Actions workflow (`.github/workflows/`) validates that the `/docs` folder exists and contains the required planning files.
 Video Presentation
 [Insert unlisted YouTube link here.]
+
+Roles referenced below: None (public, no login required), Any (any authenticated user, either role), Organiser, Participant.
 The video walks through the planning documents, explains the ERD design decisions and endpoint plan choices, and runs the SQL script live in SSMS.
 AI Tool Disclosure
 AI assistance (Claude, Anthropic) was used during the planning phase to help draft and structure the ERD, API endpoint plan, and SQL script. All content was reviewed, and will be explained in my own words in the video presentation.
