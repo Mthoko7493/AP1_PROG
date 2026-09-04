@@ -6,3 +6,10 @@ User Roles
 Role	Description
 Organiser	Can create, edit, and delete events; manage event categories; capture participant results; and view all enrolments for their events.
 Participant	Can create an account, browse events, enter an event by selecting a category, view their own enrolments, and track their personal results.
+/docs
+  RaceDay_ERD.png                     — Entity Relationship Diagram (image)
+  RaceDay_ERD.pdf                     — Entity Relationship Diagram (PDF)
+  RaceDay_API_Endpoint_Plan.docx      — Full API endpoint plan (Word)
+  API_Endpoint_Plan.md                — Full API endpoint plan (Markdown)
+  RaceDay_Database.sql                — SQL Server database creation + seed script
+README.md                             — this file
