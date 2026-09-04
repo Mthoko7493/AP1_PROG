@@ -34,3 +34,6 @@ Video Presentation
 [Insert unlisted YouTube link here.]
 
 The video walks through the planning documents, explains the ERD design decisions and endpoint plan choices, and runs the SQL script live in SSMS.
+AI Tool Disclosure
+
+AI assistance (Claude, Anthropic) was used during the planning phase to help draft and structure the ERD, API endpoint plan, and SQL script. All content was reviewed, and will be explained in my own words in the video presentation.
